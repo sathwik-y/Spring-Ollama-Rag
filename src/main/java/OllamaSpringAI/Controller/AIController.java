@@ -33,17 +33,3 @@ public class AIController {
         .user(message).call().content());
     }
 }
-
-
-    // @GetMapping("/chat")
-    // public String getQueryRespV1(@RequestParam String query){
-    //     return aiService.getQueryDocs(query).get(0).getContent().toString();
-    //     //return aiService.getQueryDocs(query);
-
-    // }
-
-    // @PostMapping("/query")
-    // public String getQueryRespV2(@RequestParam String query){
-
-    //     return aiService.getQueryDocsSR(query).get(0).getContent().toString();
-    // }
